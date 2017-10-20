@@ -9,6 +9,6 @@ java学习demo
 | Goku.Single.DruidDemo            | spring+springmvc+mybatis |druid单数据源配置|
 | Goku.WebService.Simple.Dynamic   | springboot+spring+springmvc+mybatis|springboot druid多数据源配置|
 | Goku.WebService.Simple.Single    | springboot+spring+springmvc+mybatis|springboot druid单数据源配置|
-
+| Goku.MybatisDemo.XML   | springboot+spring+springmvc+mybatis|springboot mybatis XML注解|
 
 
