@@ -1,5 +1,2 @@
-# Goku.WebService.Simple
+# Goku.WebService.Simple 多数据源
 基于 SpringBoot + Spring + SpringMvc+Mybatis 开发REST服务
-
-备注</br>
-1.0.0版本 是单数据源
