@@ -2,6 +2,7 @@ package com.goku.mybatis.model;
 
 import java.io.Serializable;
 
+
 public class sysUser implements Serializable {
     /**
      *

@@ -110,7 +110,7 @@ public class DruidDataBaseConfig {
     @Bean
     @Primary
     //配置事物管理
-    public DataSourceTransactionManager masterTransactionManager(){
+    public DataSourceTransactionManager TransactionManager(){
         return new DataSourceTransactionManager(dataSource());
     }
 }

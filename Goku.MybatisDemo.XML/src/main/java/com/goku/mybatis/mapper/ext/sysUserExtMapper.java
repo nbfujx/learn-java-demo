@@ -19,5 +19,21 @@ public interface sysUserExtMapper {
 
     Map<String, String> selectUserByUsername(@Param("username") String username);
 
+    int  insertsysUser(sysUser sysuser);
 
+    int insertsysUser2(sysUser sysuser);
+
+    int insertsysUser3(sysUser sysuser);
+
+    int updateUser(sysUser sysuser);
+
+    int deleteByUserName(@Param("username") String username);
+
+    sysUser selectByUsernameORorg(@Param("username") String username,@Param("name") String name,@Param("orgid") String orgid);
+
+    sysUser selectByUsernameORorg2(@Param("username") String username,@Param("name") String name);
+
+    List<Map<String, String>>  selectUserByOrgid2(List  org_ids);
+
+    List<sysUser> selectByUsername2(@Param("username") String username);
 }
