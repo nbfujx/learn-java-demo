@@ -22,64 +22,14 @@
     <favorites_list name="Goku.MybatisDemo.XML" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sysUserExtMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ext/sysUserExtMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="59" column="98" selection-start-line="59" selection-start-column="98" selection-end-line="59" selection-end-column="98" />
-              <folding>
-                <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#select#2;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#select#3;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#insert#2;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#update#0;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#delete#0;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#select#4;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#select#5;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#select#6;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#select#7;n#mapper#0;n#!!top" expanded="false" />
-                <marker date="1508758337846" expanded="true" signature="1405:1536" ph="select from sys_user" />
-                <marker date="1508758337846" expanded="true" signature="1617:1847" ph="select from sys_user" />
-                <marker date="1508758337846" expanded="true" signature="2292:2377" ph="select usern... sys_user" />
-                <marker date="1508758337846" expanded="true" signature="2476:3019" ph="insert into sys_user... " />
-                <marker date="1508758337846" expanded="false" signature="3175:3712" ph="insert into sys_user... " />
-                <marker date="1508758337846" expanded="true" signature="3960:4532" ph="SELECT UUID(... " />
-                <marker date="1508758337846" expanded="true" signature="3969:4532" ph="insert into sys_user... " />
-                <marker date="1508758337846" expanded="true" signature="4778:5378" ph="update sys_u... " />
-                <marker date="1508758337846" expanded="true" signature="5616:5690" ph="delete from " />
-                <marker date="1508758337846" expanded="true" signature="5815:6230" ph="select from sys_user" />
-                <marker date="1508758337846" expanded="true" signature="5815:6271" ph="select from sys_user" />
-                <marker date="1508758337846" expanded="true" signature="7214:7331" ph="select from sys_user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sysUserExtMapperTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/com/goku/mybatis/mapper/ext/sysUserExtMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="96" column="83" selection-start-line="96" selection-start-column="83" selection-end-line="96" selection-end-column="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -108,17 +58,22 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapping/sysUserInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/sysUserMapper.xml" />
         <option value="$PROJECT_DIR$/Goku.MybatisDemo.XML.iml" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/goku/mybatis/config/DruidDataBaseConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goku/mybatis/WebapiApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goku/mybatis/model/sysUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/goku/mybatis/mapper/ext/sysUserExtMapperTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/com/goku/mybatis/mapper/ext/SpringApplicationConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/ext/sysUserExtMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goku/mybatis/model/sysUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goku/mybatis/mapper/ext/sysUserExtMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/com/goku/mybatis/mapper/ext/sysUserExtMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/ext/sysUserExtMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goku/mybatis/model/sysOrg.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/ext/sysOrgMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/ext/sysOrgExtMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goku/mybatis/mapper/ext/sysOrgExtMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/goku/mybatis/mapper/ext/sysOrgExtMapperTest.java" />
       </list>
     </option>
   </component>
@@ -342,41 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Goku.MybatisDemo.XML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Goku.MybatisDemo.XML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -470,15 +391,17 @@
       <recent name="test.com.goku.mybatis.mapper.ext" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="com.goku.mybatis.mapper.ext.sysOrgExtMapper" />
       <recent name="com.goku.mybatis.mapper.ext.sysUserExtMapper" />
       <recent name="com.goku.mybatis.mapper.sysUserMapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\WebApp\Goku\learn-java-demo\Goku.MybatisDemo.XML\src\main\resources\mapping\ext" />
       <recent name="D:\Work\WebApp\Goku\learn-java-demo\Goku.MybatisDemo.XML\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.sysUserExtMapperTest.selectUserByOrgid2">
-    <configuration default="false" name="sysUserExtMapperTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.sysOrgExtMapperTest.selectextend2">
+    <configuration default="false" name="sysUserExtMapperTest.selectextends4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.com.goku.mybatis.mapper.ext.*" />
@@ -490,7 +413,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.com.goku.mybatis.mapper.ext" />
       <option name="MAIN_CLASS_NAME" value="test.com.goku.mybatis.mapper.ext.sysUserExtMapperTest" />
-      <option name="METHOD_NAME" value="updateUser" />
+      <option name="METHOD_NAME" value="selectextends4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -504,7 +427,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="sysUserExtMapperTest.deleteByUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="sysUserExtMapperTest.selectextends5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.com.goku.mybatis.mapper.ext.*" />
@@ -516,7 +439,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.com.goku.mybatis.mapper.ext" />
       <option name="MAIN_CLASS_NAME" value="test.com.goku.mybatis.mapper.ext.sysUserExtMapperTest" />
-      <option name="METHOD_NAME" value="deleteByUserName" />
+      <option name="METHOD_NAME" value="selectextends5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -530,7 +453,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="sysUserExtMapperTest.selectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="sysUserExtMapperTest.selectextends6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.com.goku.mybatis.mapper.ext.*" />
@@ -542,7 +465,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.com.goku.mybatis.mapper.ext" />
       <option name="MAIN_CLASS_NAME" value="test.com.goku.mybatis.mapper.ext.sysUserExtMapperTest" />
-      <option name="METHOD_NAME" value="selectByUsername" />
+      <option name="METHOD_NAME" value="selectextends6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -556,7 +479,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="sysUserExtMapperTest.selectByUsername2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="sysOrgExtMapperTest.selectextend1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.com.goku.mybatis.mapper.ext.*" />
@@ -567,8 +490,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.com.goku.mybatis.mapper.ext" />
-      <option name="MAIN_CLASS_NAME" value="test.com.goku.mybatis.mapper.ext.sysUserExtMapperTest" />
-      <option name="METHOD_NAME" value="selectByUsername2" />
+      <option name="MAIN_CLASS_NAME" value="test.com.goku.mybatis.mapper.ext.sysOrgExtMapperTest" />
+      <option name="METHOD_NAME" value="selectextend1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -582,7 +505,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="sysUserExtMapperTest.selectUserByOrgid2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="sysOrgExtMapperTest.selectextend2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.com.goku.mybatis.mapper.ext.*" />
@@ -593,8 +516,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.com.goku.mybatis.mapper.ext" />
-      <option name="MAIN_CLASS_NAME" value="test.com.goku.mybatis.mapper.ext.sysUserExtMapperTest" />
-      <option name="METHOD_NAME" value="selectUserByOrgid2" />
+      <option name="MAIN_CLASS_NAME" value="test.com.goku.mybatis.mapper.ext.sysOrgExtMapperTest" />
+      <option name="METHOD_NAME" value="selectextend2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1306,19 +1229,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.mybatis-generator" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.WebapiApplication" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.updateUser" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.deleteByUserName" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectByUsername" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectByUsername2" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectUserByOrgid2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectextends4" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectextends5" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectextends6" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.sysOrgExtMapperTest.selectextend1" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.sysOrgExtMapperTest.selectextend2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectUserByOrgid2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectByUsername2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectByUsername" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.deleteByUserName" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.updateUser" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.sysOrgExtMapperTest.selectextend2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.sysOrgExtMapperTest.selectextend1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectextends6" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectextends5" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.sysUserExtMapperTest.selectextends4" />
       </list>
     </recent_temporary>
   </component>
@@ -1338,52 +1261,52 @@
       <option name="presentableId" value="Default" />
       <updated>1508489534968</updated>
       <workItem from="1508489541158" duration="94000" />
-      <workItem from="1508662420645" duration="13187000" />
+      <workItem from="1508662420645" duration="24129000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="sysUserExtMapperTest_deleteByUserName - 2017.10.23 at 16h 43m 33s.xml">
-      <configuration name="sysUserExtMapperTest.deleteByUserName" configurationId="JUnit" />
+    <history-entry file="sysOrgExtMapperTest_selectextend1 - 2017.10.24 at 16h 44m 52s.xml">
+      <configuration name="sysOrgExtMapperTest.selectextend1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sysUserExtMapperTest_insertsysUser2 - 2017.10.23 at 16h 29m 48s.xml">
-      <configuration name="sysUserExtMapperTest.insertsysUser2" configurationId="JUnit" />
+    <history-entry file="sysOrgExtMapperTest_selectextend1 - 2017.10.24 at 16h 45m 52s.xml">
+      <configuration name="sysOrgExtMapperTest.selectextend1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sysUserExtMapperTest_selectByUsername - 2017.10.23 at 17h 02m 11s.xml">
-      <configuration name="sysUserExtMapperTest.selectByUsername" configurationId="JUnit" />
+    <history-entry file="sysOrgExtMapperTest_selectextend1 - 2017.10.24 at 16h 48m 01s.xml">
+      <configuration name="sysOrgExtMapperTest.selectextend1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sysUserExtMapperTest_selectByUsername - 2017.10.23 at 17h 02m 42s.xml">
-      <configuration name="sysUserExtMapperTest.selectByUsername" configurationId="JUnit" />
+    <history-entry file="sysOrgExtMapperTest_selectextend1 - 2017.10.24 at 16h 50m 41s.xml">
+      <configuration name="sysOrgExtMapperTest.selectextend1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sysUserExtMapperTest_selectByUsername - 2017.10.23 at 17h 03m 42s.xml">
-      <configuration name="sysUserExtMapperTest.selectByUsername" configurationId="JUnit" />
+    <history-entry file="sysOrgExtMapperTest_selectextend1 - 2017.10.24 at 16h 53m 11s.xml">
+      <configuration name="sysOrgExtMapperTest.selectextend1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sysUserExtMapperTest_selectByUsername2 - 2017.10.23 at 19h 34m 17s.xml">
-      <configuration name="sysUserExtMapperTest.selectByUsername2" configurationId="JUnit" />
+    <history-entry file="sysOrgExtMapperTest_selectextend1 - 2017.10.24 at 16h 55m 58s.xml">
+      <configuration name="sysOrgExtMapperTest.selectextend1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sysUserExtMapperTest_selectByUsername2 - 2017.10.23 at 19h 34m 46s.xml">
-      <configuration name="sysUserExtMapperTest.selectByUsername2" configurationId="JUnit" />
+    <history-entry file="sysOrgExtMapperTest_selectextend1 - 2017.10.24 at 17h 02m 16s.xml">
+      <configuration name="sysOrgExtMapperTest.selectextend1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sysUserExtMapperTest_selectByUsername2 - 2017.10.23 at 19h 35m 30s.xml">
-      <configuration name="sysUserExtMapperTest.selectByUsername2" configurationId="JUnit" />
+    <history-entry file="sysOrgExtMapperTest_selectextend1 - 2017.10.24 at 17h 02m 31s.xml">
+      <configuration name="sysOrgExtMapperTest.selectextend1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sysUserExtMapperTest_selectUserByOrgid2 - 2017.10.23 at 19h 36m 52s.xml">
-      <configuration name="sysUserExtMapperTest.selectUserByOrgid2" configurationId="JUnit" />
+    <history-entry file="sysOrgExtMapperTest_selectextend1 - 2017.10.24 at 17h 02m 35s.xml">
+      <configuration name="sysOrgExtMapperTest.selectextend1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sysUserExtMapperTest_updateUser - 2017.10.23 at 16h 34m 41s.xml">
-      <configuration name="sysUserExtMapperTest.updateUser" configurationId="JUnit" />
+    <history-entry file="sysOrgExtMapperTest_selectextend2 - 2017.10.24 at 17h 12m 47s.xml">
+      <configuration name="sysOrgExtMapperTest.selectextend2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13281000" />
+    <option name="totallyTimeSpent" value="24223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1394,20 +1317,20 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24713467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24713467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39944133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1422,7 +1345,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1434,14 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/model/sysUserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1502,14 +1419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/mapper/sysUserInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/controller/impl/sysUserControllerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -1530,24 +1439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/sysUserInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <marker date="1508663237220" expanded="true" signature="9722:10671" ph="update sys_u... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1575,14 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/model/sysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1619,14 +1502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/service/impl/sysUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/service/sysUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1635,40 +1510,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/mapper/sysUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/service/impl/sysUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="130">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/sysUserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="46" column="37" selection-start-line="45" selection-start-column="4" selection-end-line="46" selection-end-column="37" />
+          <folding>
+            <marker date="1508663237220" expanded="true" signature="2462:2571" ph="select from sys_user_info" />
+            <marker date="1508663237220" expanded="true" signature="2787:2850" ph="delete from " />
+            <marker date="1508663237220" expanded="true" signature="3072:3979" ph="insert into sys_user_info... " />
+            <marker date="1508663237220" expanded="true" signature="7588:9488" ph="update sys_u... " />
+            <marker date="1508663237220" expanded="true" signature="9722:10671" ph="update sys_u... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/model/sysUserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/sysUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="213" column="11" selection-start-line="168" selection-start-column="2" selection-end-line="213" selection-end-column="11" />
+        <state relative-caret-position="244">
+          <caret line="34" column="10" selection-start-line="33" selection-start-column="3" selection-end-line="34" selection-end-column="10" />
           <folding>
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" expanded="false" />
             <marker date="1508734931632" expanded="true" signature="8062:8579" ph="update sys_u... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/mapper/ext/sysUserExtMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/sysOrgMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="35" column="63" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="63" />
+        <state relative-caret-position="171">
+          <caret line="26" column="88" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="88" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1508833680578" expanded="true" signature="1720:1823" ph="select from sys_org" />
+            <marker date="1508833680578" expanded="true" signature="2039:2096" ph="delete from " />
+            <marker date="1508833680578" expanded="true" signature="2313:2820" ph="insert into sys_org... " />
+            <marker date="1508833680578" expanded="true" signature="5123:6181" ph="update sys_o... " />
+            <marker date="1508833680578" expanded="true" signature="6410:6931" ph="update sys_o... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/mapper/sysUserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/mapper/sysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/goku/mybatis/mapper/ext/sysUserExtMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="78" column="72" selection-start-line="77" selection-start-column="5" selection-end-line="78" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/model/sysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#2818#2819#0" expanded="true" />
+            <element signature="e#2852#2853#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+            <element signature="e#2957#2958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ext/sysUserExtMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="59" column="98" selection-start-line="59" selection-start-column="98" selection-end-line="59" selection-end-column="98" />
+        <state relative-caret-position="114">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="165" selection-end-column="16" />
           <folding>
             <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#4;n#mapper#0;n#!!top" expanded="false" />
             <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
             <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
             <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
@@ -1683,28 +1653,89 @@
             <element signature="n#select#5;n#mapper#0;n#!!top" expanded="false" />
             <element signature="n#select#6;n#mapper#0;n#!!top" expanded="false" />
             <element signature="n#select#7;n#mapper#0;n#!!top" expanded="false" />
-            <marker date="1508758337846" expanded="true" signature="1405:1536" ph="select from sys_user" />
-            <marker date="1508758337846" expanded="true" signature="1617:1847" ph="select from sys_user" />
-            <marker date="1508758337846" expanded="true" signature="2292:2377" ph="select usern... sys_user" />
-            <marker date="1508758337846" expanded="true" signature="2476:3019" ph="insert into sys_user... " />
-            <marker date="1508758337846" expanded="false" signature="3175:3712" ph="insert into sys_user... " />
-            <marker date="1508758337846" expanded="true" signature="3960:4532" ph="SELECT UUID(... " />
-            <marker date="1508758337846" expanded="true" signature="3969:4532" ph="insert into sys_user... " />
-            <marker date="1508758337846" expanded="true" signature="4778:5378" ph="update sys_u... " />
-            <marker date="1508758337846" expanded="true" signature="5616:5690" ph="delete from " />
-            <marker date="1508758337846" expanded="true" signature="5815:6230" ph="select from sys_user" />
-            <marker date="1508758337846" expanded="true" signature="5815:6271" ph="select from sys_user" />
-            <marker date="1508758337846" expanded="true" signature="7214:7331" ph="select from sys_user" />
+            <element signature="n#select#8;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#9;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#10;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#11;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#12;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#13;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#14;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1508833262481" expanded="true" signature="12299:12430" ph="select from sys_user" />
+            <marker date="1508833262481" expanded="true" signature="12511:12741" ph="select from sys_user" />
+            <marker date="1508833262481" expanded="true" signature="13186:13271" ph="select usern... sys_user" />
+            <marker date="1508833262481" expanded="true" signature="13370:13913" ph="insert into sys_user... " />
+            <marker date="1508833262481" expanded="false" signature="14069:14606" ph="insert into sys_user... " />
+            <marker date="1508833262481" expanded="true" signature="14854:15426" ph="SELECT UUID(... " />
+            <marker date="1508833262481" expanded="true" signature="14863:15426" ph="insert into sys_user... " />
+            <marker date="1508833262481" expanded="true" signature="15672:16272" ph="update sys_u... " />
+            <marker date="1508833262481" expanded="true" signature="16510:16584" ph="delete from " />
+            <marker date="1508833262481" expanded="true" signature="18108:18225" ph="select from sys_user" />
+            <marker date="1508833262481" expanded="true" signature="18350:18802" ph="select from sys_user" />
+            <marker date="1508833262481" expanded="true" signature="18923:19371" ph="select u.id,... sys_user" />
+            <marker date="1508833262481" expanded="true" signature="19491:19939" ph="select u.id,... sys_user" />
+            <marker date="1508833262481" expanded="true" signature="20069:20131" ph="SELECT * FRO... sys_user_info" />
+            <marker date="1508833262481" expanded="true" signature="20253:20323" ph="select * fro... sys_user" />
+            <marker date="1508833262481" expanded="true" signature="20445:20893" ph="select u.id,... sys_user" />
+            <marker date="1508833262481" expanded="true" signature="21015:21463" ph="select u.id,... sys_user" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/goku/mybatis/mapper/ext/sysUserExtMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/goku/mybatis/mapper/ext/sysOrgExtMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="96" column="83" selection-start-line="96" selection-start-column="83" selection-end-line="96" selection-end-column="83" />
+        <state relative-caret-position="329">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/model/sysOrg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="122" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/mapper/ext/sysUserExtMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goku/mybatis/mapper/ext/sysOrgExtMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ext/sysOrgExtMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#resultMap#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1508836311608" expanded="true" signature="3655:3991" ph="select o.id,... sys_org" />
+            <marker date="1508836311608" expanded="true" signature="5290:5351" ph="SELECT * FRO... sys_user" />
+            <marker date="1508836311608" expanded="true" signature="5472:5527" ph="select * fro... sys_org" />
           </folding>
         </state>
       </provider>

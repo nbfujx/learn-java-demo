@@ -3,6 +3,7 @@ package test.com.goku.mybatis.mapper.ext;
 import com.goku.mybatis.WebapiApplication;
 import com.goku.mybatis.mapper.ext.sysUserExtMapper;
 import com.goku.mybatis.model.sysUser;
+import com.goku.mybatis.model.sysUserInfo;
 import com.goku.mybatis.service.impl.sysUserServiceImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -100,5 +101,42 @@ public class sysUserExtMapperTest  {
     @Test
     public void selectByUsername2() throws Exception {
         List<sysUser> user= sysuserextmapper.selectByUsername2("2");
+    }
+
+    @Test
+    public void selectextends() throws Exception {
+        sysUser user= sysuserextmapper.selectextends("444");
+        this.logger.info("执行成功个数："+user.getUsername()+":"+user.getSysuserinfo().getAddress());
+    }
+
+
+    @Test
+    public void selectextends2() throws Exception {
+        sysUser user= sysuserextmapper.selectextends2("444");
+        this.logger.info("执行成功个数："+user.getUsername()+":"+user.getSysuserinfo().getAddress());
+    }
+
+    @Test
+    public void selectextends3() throws Exception {
+        Map<String, String> user= sysuserextmapper.selectextends3("444");
+        this.logger.info("执行成功个数："+user);
+    }
+
+    @Test
+    public void selectextends4() throws Exception {
+        sysUser user= sysuserextmapper.selectextends4("444");
+        this.logger.info("执行成功个数："+user.getUsername()+":"+user.getSysuserinfo().getAddress());
+    }
+
+    @Test
+    public void selectextends5() throws Exception {
+        sysUser user= sysuserextmapper.selectextends5("444");
+        this.logger.info("执行成功个数："+user.getUsername()+":"+user.getSysuserinfo().getAddress());
+    }
+
+    @Test
+    public void selectextends6() throws Exception {
+        sysUser user= sysuserextmapper.selectextends6("444");
+        this.logger.info("执行成功个数："+user.getUsername()+":"+user.getSysuserinfo().getAddress());
     }
 }

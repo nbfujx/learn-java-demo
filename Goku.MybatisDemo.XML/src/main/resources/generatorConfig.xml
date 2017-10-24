@@ -37,7 +37,7 @@
         </javaClientGenerator>
 
         <!-- !!!! Table Configurations !!!! -->
-        <table tableName="sys_user" domainObjectName="sysUser" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+        <table tableName="sys_org" domainObjectName="sysOrg" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
                enableUpdateByExample="false"/>
     </context>
 </generatorConfiguration>

@@ -1,6 +1,7 @@
 package com.goku.mybatis.mapper.ext;
 
 import com.goku.mybatis.model.sysUser;
+import com.goku.mybatis.model.sysUserInfo;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -36,4 +37,18 @@ public interface sysUserExtMapper {
     List<Map<String, String>>  selectUserByOrgid2(List  org_ids);
 
     List<sysUser> selectByUsername2(@Param("username") String username);
+
+    sysUser selectextends(String username);
+
+    sysUser selectextends2(String username);
+
+    Map<String, String> selectextends3(@Param("username") String username);
+
+    sysUserInfo findsysUserInfoById(@Param("id") String id);
+
+    sysUser selectextends4(@Param("username") String username);
+
+    sysUser selectextends5(@Param("username") String username);
+
+    sysUser selectextends6(@Param("username") String username);
 }
