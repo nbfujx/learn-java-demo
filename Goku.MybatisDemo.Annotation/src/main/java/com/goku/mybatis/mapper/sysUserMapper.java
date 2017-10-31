@@ -1,9 +1,13 @@
 package com.goku.mybatis.mapper;
 
+import com.goku.mybatis.mapper.Provider.sysUserDynaSqlProvider;
 import com.goku.mybatis.model.sysOrg;
 import com.goku.mybatis.model.sysUser;
 import com.goku.mybatis.model.sysUserInfo;
 import org.apache.ibatis.annotations.*;
+
+import java.util.List;
+import java.util.Map;
 
 @Mapper
 public interface sysUserMapper {
@@ -113,5 +117,88 @@ public interface sysUserMapper {
 
     @Select("SELECT * FROM sys_user WHERE org_id = #{id}")
     sysUser findByOrgId(String id);
+
+    @SelectProvider(type=sysUserDynaSqlProvider.class, method="findUserByIdSql")
+    sysUser findUserByIdSql(String id);
+
+    @SelectProvider(type=sysUserDynaSqlProvider.class, method="findUserByIdSql2")
+    sysUser findUserByIdSql2(String id, String name);
+
+    @InsertProvider(type = sysUserDynaSqlProvider.class, method = "insertUser")
+    int insertUser4(sysUser sysuser);
+
+    @InsertProvider(type = sysUserDynaSqlProvider.class, method = "updateUser")
+    int updateUser2(sysUser sysuser);
+
+    @DeleteProvider(type = sysUserDynaSqlProvider.class, method = "deleteUser")
+    int deleteUser2(@Param("id") String id);
+
+    @SelectProvider(type=sysUserDynaSqlProvider.class, method="findUserinfoByIdSql")
+    List<Map<String, String>> findUserinfoByIdSql(@Param("id") String id);
+
+
+    @Select(" #set( $pattern = $_parameter.username + '%' ) " +
+            "    SELECT * FROM sys_user WHERE username LIKE @{pattern}")
+    @Lang(org.mybatis.scripting.velocity.Driver.class)
+    List<sysUser> findsysUserbyvelocity(@Param("username") String username);
+
+    @Select("SELECT * FROM sys_user " +
+            "#trim('WHERE' 'AND|OR')" +
+            "#if($_parameter.username)" +
+            "    #set($_username = '%'+$_parameter.username +'%')" +
+            "        AND username LIKE @{_username}" +
+            "    #end" +
+            "#end")
+    @Lang(org.mybatis.scripting.velocity.Driver.class)
+    List<sysUser> findsysUserbyvelocity2(@Param("username") String username);
+
+    @Select("SELECT * FROM sys_user #where()" +
+            "        #if($_parameter.username)" +
+            "            #set($_username = '%'+$_parameter.username+'%')" +
+            "            AND username LIKE @{_username}" +
+            "        #end" +
+            "    #end")
+    @Lang(org.mybatis.scripting.velocity.Driver.class)
+    List<sysUser> findsysUserbyvelocity3(@Param("username") String username);
+
+
+    @Insert(" insert into sys_user (id, username, password, " +
+            "      name, sex, status, org_id, " +
+            "      email, idcard, is_admin, " +
+            "      sort, mobile, stationid" +
+            "      )" +
+            "    values (@{id}, @{username}, @{password}," +
+            "      @{name},@{sex}, @{status}, @{orgId}, " +
+            "      @{email}, @{idcard}, @{isAdmin}, " +
+            "      @{sort}, @{mobile}, @{stationid}" +
+            "      )")
+    @Lang(org.mybatis.scripting.velocity.Driver.class)
+    int insertUser5(sysUser sysuser);
+
+
+    @Update("update sys_user  " +
+            "#mset() " +
+            "  #if(!$name)  name=@{name},#end " +
+            "#end  " +
+            "WHERE id = @{id}")
+    @Lang(org.mybatis.scripting.velocity.Driver.class)
+    int updateUser3(sysUser sysuser);
+
+    @Select("SELECT * FROM sys_user #where() " +
+            "     #repeat( $_parameter.ids $id  ','  'id IN ('  ')' )" +
+            "     @{id}" +
+            "     #end" +
+            "#end")
+    @Lang(org.mybatis.scripting.velocity.Driver.class)
+    List<sysUser> findsysUserbyvelocity4(@Param("ids") List<String> ids);
+
+    @Select("SELECT *FROM sys_user " +
+            "#where() " +
+            "    #in( $_parameter.ids  $id  'id') " +
+            "    @{id} " +
+            "   #end" +
+            "#end")
+    @Lang(org.mybatis.scripting.velocity.Driver.class)
+    List<sysUser> findsysUserbyvelocity5(@Param("ids") List<String> ids);
 
 }
