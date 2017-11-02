@@ -11,6 +11,6 @@ java学习demo
 | Goku.WebService.Simple.Single    | springboot+spring+springmvc+mybatis|springboot druid单数据源配置|
 | Goku.MybatisDemo.XML   | springboot+spring+springmvc+mybatis|springboot mybatis XML定义|
 |Goku.MybatisDemo.Annotation | springboot+spring+springmvc+mybatis|springboot mybatis 接口注释定义|
-|Goku.MybatisDemo.Simple.Shiro| springboot+spring+springmvc+mybatis+Shiro |springboot Shiro 权限管理|
+|Goku.WebService.Simple.Shiro| springboot+spring+springmvc+mybatis+Shiro |springboot Shiro 权限管理|
 
 
