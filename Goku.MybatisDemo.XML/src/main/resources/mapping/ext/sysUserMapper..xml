@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.goku.mybatis.mapper.sysUserMapper">
+    <resultMap type="com.goku.mybatis.model.sysUser" id="sysUserResult">
+        <id column="id" jdbcType="VARCHAR" property="id" />
+        <result column="username" jdbcType="VARCHAR" property="username" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="sex" jdbcType="VARCHAR" property="sex" />
+        <result column="status" jdbcType="CHAR" property="status" />
+        <result column="org_id" jdbcType="VARCHAR" property="orgId" />
+        <result column="email" jdbcType="VARCHAR" property="email" />
+        <result column="idcard" jdbcType="VARCHAR" property="idcard" />
+        <result column="is_admin" jdbcType="VARCHAR" property="isAdmin" />
+        <result column="sort" jdbcType="BIGINT" property="sort" />
+        <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+        <association property="sysuserinfo" javaType="com.goku.mybatis.model.sysUserInfo">
+            <id column="id" jdbcType="VARCHAR" property="id" />
+            <result column="address" jdbcType="VARCHAR" property="address" />
+            <result column="post_code" jdbcType="VARCHAR" property="postCode" />
+            <result column="height" jdbcType="VARCHAR" property="height" />
+            <result column="weight" jdbcType="VARCHAR" property="weight" />
+            <result column="birthday" jdbcType="DATE" property="birthday" />
+            <result column="blood" jdbcType="VARCHAR" property="blood" />
+            <result column="culture" jdbcType="VARCHAR" property="culture" />
+            <result column="finish_school_date" jdbcType="DATE" property="finishSchoolDate" />
+            <result column="folk" jdbcType="VARCHAR" property="folk" />
+            <result column="government" jdbcType="VARCHAR" property="government" />
+            <result column="homepage" jdbcType="VARCHAR" property="homepage" />
+            <result column="householder" jdbcType="VARCHAR" property="householder" />
+            <result column="marriage" jdbcType="VARCHAR" property="marriage" />
+            <result column="msn" jdbcType="VARCHAR" property="msn" />
+            <result column="nativity_address" jdbcType="VARCHAR" property="nativityAddress" />
+            <result column="qq" jdbcType="VARCHAR" property="qq" />
+            <result column="speciality" jdbcType="VARCHAR" property="speciality" />
+            <result column="description" jdbcType="VARCHAR" property="description" />
+            <result column="version" jdbcType="BIGINT" property="version" />
+        </association>
+    </resultMap>
+</mapper>

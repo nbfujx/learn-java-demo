@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Goku.WebService.Simple" />
         <module name="Goku.WebService.Simple.Shiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Goku.WebService.Simple.Shiro" target="1.5" />
+      <module name="Goku.WebService.Simple" target="1.6" />
+      <module name="Goku.WebService.Simple.Shiro" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
