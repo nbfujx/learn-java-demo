@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Simple.iml" filepath="$PROJECT_DIR$/Goku.WebService.Simple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Simple.iml" filepath="$PROJECT_DIR$/Goku.WebService.Simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goku.WebService.Simple.Shiro.iml" filepath="$PROJECT_DIR$/Goku.WebService.Simple.Shiro.iml" />
     </modules>
   </component>
